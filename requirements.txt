@@ -2,3 +2,5 @@ emoji
 clean-text
 flashtext
 ftfy
+faiss-cpu
+sentence-transformers

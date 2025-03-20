@@ -1,0 +1,29 @@
+# 忽略 Git 相关文件
+.git
+.gitignore
+
+# 忽略 IDE/编辑器配置
+.vscode
+.idea
+*.iml
+.conda
+.model_cache 
+# 但允许 Dockerfile 里手动 COPY
+!.model_cache/
+
+# 忽略 Python/Java 的虚拟环境和缓存
+__pycache__/
+venv/
+target/
+
+# 忽略日志、临时文件
+*.log
+*.tmp
+*.swp
+
+# 忽略 Node.js 依赖（如果有）
+node_modules/
+
+# 忽略 Docker 构建缓存
+docker-compose.override.yml
+*.pid
